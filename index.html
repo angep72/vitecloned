@@ -7,6 +7,8 @@
 						initial-scale=1.0">
     <title>Setup Tailwind-CSS with Vite</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/cc206ed660.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="font-sans">
@@ -56,7 +58,7 @@
                     <p class="text-[30px] font-semibold text-[#333333]">Your future is here!</p>
                 </div>
                 <div>
-                    <p class="text-[#333333] text-[19px]  font-thin">Gathering the most complete offer of training
+                    <p class="text-[#333333] text-[22px]  font-thin">Gathering the most complete offer of training
                         programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who
                         want to build an academic path of excellence and properly valued by the labour market.</p>
                 </div>
@@ -66,7 +68,7 @@
         </div>
         <!--second page-->
         <div class="w-4/5 mx-auto mt-20">
-            <div class="flex">
+            <div class="flex gap-6 place-items-center">
                 <div class="w-[60%] ">
                     <h2 class="text-[#333333] text-[28px] font-semibold">which course are you looking for ?</h2>
                     <form action="">
@@ -79,15 +81,114 @@
 
                         <input type="text" placeholder="Please enter the course key words"
                             class="w-full py-3 px-6  border-4 border-gray-900 text-[19px] text-[#333333] font-thin"><br><br>
-                            <button class="w-full py-3 px-6  border-2 border-[#A18A4D] hover:bg-[#A18A4D] hover:text-white text-[19px] text-[#A18A4D] font-bold text-center">Search</button>
+                        <button
+                            class="w-full py-3 px-6  border-2 border-[#A18A4D] hover:bg-[#A18A4D] hover:text-white text-[19px] text-[#A18A4D] font-bold text-center">Search</button>
 
                     </form>
                 </div>
-                <div class="border border-yellow-600">2</div>
+                <div class=" w-[35%] pt-10 ">
+                    <h2 class="text-[#333333] text-[22px] ">Courses from A to Z:</h2>
+                    <p class="font-thin text-[#333333] text-[28px] hover:text-[#A18A4D]"><u>Bachelor's and Integrated
+                            Master's Degrees</u></p>
+                    <p class="font-thin text-[#333333] text-[28px] hover:text-[#A18A4D]"><u>Master's Degree</u></p>
+                    <p class="font-thin text-[#333333] text-[28px] hover:text-[#A18A4D]"><u>Doctorate</u></p>
+
+                </div>
 
             </div>
         </div>
         <!--second page-->
+        <!--Third page-->
+        <div class="bg-gray-100 mt-20 pt-20">
+            <div class="flex justify-between place-content-center w-4/5 mx-auto">
+                <h2 class="text-[#A18A4D] text-[50px] px-3 font-light">News</h2>
+                <p class="text-[#A18A4D] font-bold pt-8 px-3">All news</p>
+            </div>
+            <div class="w-4/5 mx-auto flex gap-6 pb-10">
+                <div class="w-[40%] bg-white mt-16 ">
+                    <p class="text-[#A18A4D] text-[22px] p-5">Desporto</p>
+                    <p class="  text-[22px] font-semibold pb-20 px-5 ">U.Porto vai organizar Europeu Universitário de
+                        Futebol em 2027</p>
+                    <p class="text-[22px] p-5">14 May 24</p>
+                    <img class="w-[100%]"
+                        src="https://noticias.up.pt/wp-content/uploads/2024/05/aerea-frente-edificios.jpg" alt="">
+                </div>
+                <div class="w-[40%] bg-white mt-16 ">
+                    <p class="text-[#A18A4D] text-[22px] p-5">Desporto</p>
+                    <p class="  text-[22px] font-semibold pb-20 px-5 ">U.Porto vai organizar Europeu Universitário de
+                        Futebol em 2027</p>
+                    <p class="text-[22px] p-5">14 May 24</p>
+                    <img class="w-[100%]"
+                        src="https://noticias.up.pt/wp-content/uploads/2024/05/aerea-frente-edificios.jpg" alt="">
+                </div>
+                <div class="w-[30%] bg-white mt-16 ">
+                    <p class="text-[#A18A4D] text-[22px] p-5">Desporto</p>
+                    <p class="  text-[22px] font-semibold pb-12 px-5 ">U.Porto vai organizar Europeu Universitário de
+                        Futebol em 2027</p>
+                    <p class="text-[22px] p-5">14 May 24</p>
+                    <img class="w-[100%] h-[278px]"
+                        src="https://noticias.up.pt/wp-content/uploads/2024/05/aerea-frente-edificios.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--end of Third page-->
+        <!--forth page-->
+        <div class="w-4/5 mx-auto mt-20 ">
+            <div class="flex gap-4">
+                <div
+                    class=" w-[65%]  bg-no-repeat  bg-top bg-[url('https://www.up.pt/portal/static/images/minerva_01.png')] p-20">
+                    <h1 class="text-[38px] font-light text-[#A18A4D] pl-6">We are a University of Excellence!
+                    </h1>
+                </div>
+                <div class=" p-10 pt-20">
+                    <p class="text-[19px] pb-6">With over 100 years of history, the University of <span
+                            class="font-semibold">Porto is a leading teaching and scientific research institution in
+                            portugal and world wide</span></p>
+                    <p class="text-[19px] pb-6">the best Portuguese University and one of<span class="font-semibold">
+                            the best 100 European institutions
+                            according to the most important Higher Education</span> rankings, U.Porto combines quality
+                        teaching and
+                        excellent research with the best academic experience.</p>
+                    <p class="text-[19px] pb-6">We are waiting for you</p>
+                    <button class="text-[#A18A4D] text-[19px] pb-6">See more</button>
+                </div>
+
+            </div>
+        </div>
+        <!--end of forth page-->
+        <!--fifth page-->
+        <div class="w-4/5 mx-auto border-b-4 mt-20">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="p-10">
+                    <h1 class="text-[#A18A4D] text-[48px] font-light">Research</h1>
+                    <h2 class="text-3xl font-semibold text-[#333333]">Research University</h2>
+                    <p class="py-6 font-light text-[22px]">With <span class="text-[#A18A4D]">48 research
+                            units</span> and a highly qualified scientific community, the University of Porto is
+                        <span class=" font-semibold">one of the largest producers of science in Portugal</span>,
+                        contributing to almost 25% of all national
+                        scientific output.
+                    </p>
+                    <p class="py-4 font-light text-[22px]">The excellence of our scientific ecosystem is particularly
+                        evident in the leading position the
+                        University occupies in the main international rankings of Higher Education.</p>
+                </div>
+                <div class="pt-32 pb-16">
+                    <img class="h-[100%]"
+                        src="https://www.up.pt/portal/media/images/investigar-home_destaque.format-jpeg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--fifth page-->
+        <div class="bg-[#A18A4D] mt-20 pt-20">
+            <div>
+                <div class="w-4/5 mx-auto border border-black relative">
+                    <img class="pl-24" src="image/7c094b67-557b-4200-8e30-2682a1f3e76f.svg" alt="">
+                    <p class="text-white absolute top-0 right-0 font-semibold text-[19px]">Learn more</p>
+                </div>
+            </div>
+        </div>
+
+
 
 
     </div>
