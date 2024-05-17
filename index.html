@@ -2,22 +2,70 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		content="width=device-width, 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
 						initial-scale=1.0">
-	<title>Setup Tailwind-CSS with Vite</title>
-	<link rel="stylesheet" href="style.css">
+    <title>Setup Tailwind-CSS with Vite</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-	<div class="flex justify-center 
-				items-center min-h-screen ">
-		<div class="bg-green-700 p-8 text-3xl 
-					rounded-2xl shadow-2xl">
-					GeeksforGeeks Learning!
-		</div>
-	</div>
+<body class="font-sans">
+    <div>
+        <!--section nav-->
+        <div>
+            <nav1 class="flex justify-between bg-gray-950  text-white px-16">
+                <ul class="text-white flex gap-4">
+                    <li><a href="">About the university</a></li>
+                    <li><a href="">About the university</a></li>
+                </ul>
+                <div>
+                    <p>Icons</p>
+                </div>
+            </nav1>
+            <nav2 class="p-4 flex justify-around bg-gray-300">
+                <div><img class="w-96" src="image/8a08e34d-43a0-4aa9-980d-281d77cfae66.svg" alt=""></div>
+                <ul class="flex gap-5 text-2xl">
+                    <li><a href="">Study</a></li>
+                    <li><a href="">Study</a></li>
+                    <li><a href="">Study</a></li>
+                    <li><a href="">Study</a></li>
+                    <li><a href="">Study</a></li>
+
+                </ul>
+            </nav2>
+        </div>
+        <!--end of section nav-->
+
+        <!--main section-->
+        <div
+            class="bg-[url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg')] bg-center bg-cover bg-no-repeat w-full h-screen relative">
+            <div class="text-gray-200 w-[38%] bg-[#2F3030] p-3 absolute bottom-24 left-28">
+                <h2 class="font-bold p-3 text-2xl">We're in the world's top 200 in 13 areas of study!</h2>
+                <p class="p-3 text-[20px]">U.Porto stands out in 28 areas of study in the "QS World University Rankings
+                    by Subject" 2024, being
+                    the best in Portugal in 16 of them.</p>
+                <button class="bg-[#A18A4D] font-semibold px-3 m-4 text-[#2F3030] text-xl">see more</button>
+            </div>
+
+        </div>
+        <!--end of main section-->
+        <div class="w-4/5 mx-auto">
+            <h2 class="text-[#A18A4D] text-[50px] mt-28">Study</h2>
+            <div class="flex gap-10 py-10  border-b-4">
+                <div class=" w-[60%]">
+                    <p class="text-[30px] font-semibold text-[#333333]">Your future is here!</p>
+                </div>
+                <div>
+                    <p class="text-[#333333] text-[19px]  font-thin">Gathering the most complete offer of training
+                        programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who
+                        want to build an academic path of excellence and properly valued by the labour market.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
 </body>
 
 </html>
