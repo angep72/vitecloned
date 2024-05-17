@@ -14,13 +14,15 @@
 <body class="font-sans">
     <div>
         <!--section nav-->
-        <div>
+        <div class="relative">
             <nav1 class="flex justify-between bg-[#333333] text-white px-16 py-4 ">
-               <ul class="flex gap-4 text-[12px] font-bold">
-                <li><a href="">About University <span class="text-gray-400 px-2"><i class="fa-solid fa-caret-down"></i></span></a></li>
-                <li><a href="">About University <span class="text-gray-400 px-2"><i class="fa-solid fa-caret-down"></i></span></a></li>
+                <ul class="flex gap-4 text-[12px] font-bold">
+                    <li><a href="">About University <span class="text-gray-400 px-2"><i
+                                    class="fa-solid fa-caret-down"></i></span></a></li>
+                    <li><a href="">About University <span class="text-gray-400 px-2"><i
+                                    class="fa-solid fa-caret-down"></i></span></a></li>
 
-               </ul>
+                </ul>
                 <div>
                     <ul class="text-white flex gap-4">
                         <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
@@ -32,18 +34,21 @@
                         <p>EN</p>
                         <p class="text-gray-500">PT</p>
 
-                        </ul>
+                    </ul>
                 </div>
             </nav1>
-            <nav2 class="p-4 flex gap-6  w-4/5 mx-auto">
+            <nav2 class="p-4 flex justify-around gap-14 bg-gray-200 sticky top-0">
                 <div><img class="w-96" src="image/8a08e34d-43a0-4aa9-980d-281d77cfae66.svg" alt=""></div>
-                <ul class="flex gap-5 text-[28px] font-bold text-[#333333]">
+                <ul class="flex gap-10 text-[16px] font-bold text-[#333333] items-center">
                     <li><a href="">STUDY</a></li>
                     <li><a href="">RESEARCH</a></li>
                     <li><a href="">INNOVATE</a></li>
                     <li><a href="">LIVE</a></li>
                     <li><a href="">EXPLORE</a></li>
-                  <button>search </button>
+                    <div class="flex justify gap-4 text-[22px] font-light border-b-2 border-[#333333]">
+                        <p>Search</p>
+                        <p><i class="fa-solid fa-magnifying-glass"></i></p>
+                    </div>
                 </ul>
             </nav2>
         </div>
@@ -51,7 +56,10 @@
 
         <!--main section-->
         <div
-            class="bg-[url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg')] bg-center bg-cover bg-no-repeat w-full h-screen relative">
+            class="bg-[url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg')] bg-center bg-cover bg-no-repeat w-full h-screen relative ">
+            <span class="bg-[#A18A4D]  absolute top-56 right-0 px-4 py-2 text-white"><i class="fa-solid fa-chevron-right"></i></span>
+            <span class="bg-[#A18A4D]  absolute top-56 left-0 px-4 py-2 text-white"><i class="fa-solid fa-chevron-left"></i></span>
+
             <div class="text-gray-200 w-[38%] bg-[#2F3030] p-3 absolute bottom-24 left-28">
                 <h2 class="font-bold p-3 text-2xl">We're in the world's top 200 in 13 areas of study!</h2>
                 <p class="p-3 text-[20px]">U.Porto stands out in 28 areas of study in the "QS World University Rankings
@@ -113,7 +121,7 @@
         <div class="bg-gray-100 mt-20 pt-20">
             <div class="flex justify-between place-content-center w-4/5 mx-auto">
                 <h2 class="text-[#A18A4D] text-[50px] px-3 font-light">News</h2>
-                <p class="text-[#A18A4D] font-bold pt-8 px-3">All news</p>
+                <p class="text-[#A18A4D] font-bold pt-8 px-3">All news <i class="fa-solid fa-caret-right"></i> </p>
             </div>
             <div class="w-4/5 mx-auto flex gap-6 pb-10">
                 <div class="w-[40%] bg-white mt-16 ">
@@ -121,7 +129,7 @@
                     <p class="  text-[22px] font-semibold pb-20 px-5 ">U.Porto vai organizar Europeu Universitário de
                         Futebol em 2027</p>
                     <p class="text-[22px] p-5">14 May 24</p>
-                    <img class="w-[100%]"
+                    <img class="w-[100%] h-[278px]"
                         src="https://noticias.up.pt/wp-content/uploads/2024/05/aerea-frente-edificios.jpg" alt="">
                 </div>
                 <div class="w-[40%] bg-white mt-16 ">
@@ -129,7 +137,7 @@
                     <p class="  text-[22px] font-semibold pb-20 px-5 ">U.Porto vai organizar Europeu Universitário de
                         Futebol em 2027</p>
                     <p class="text-[22px] p-5">14 May 24</p>
-                    <img class="w-[100%]"
+                    <img class="w-[100%] h-[278px]"
                         src="https://noticias.up.pt/wp-content/uploads/2024/05/aerea-frente-edificios.jpg" alt="">
                 </div>
                 <div class="w-[30%] bg-white mt-16 ">
@@ -146,9 +154,10 @@
         <!--forth page-->
         <div class="w-4/5 mx-auto mt-20 ">
             <div class="flex gap-4">
-                <div
-                    class=" w-[65%]  bg-no-repeat  bg-top bg-[url('https://www.up.pt/portal/static/images/minerva_01.png')] p-20 ">
-                    <h1 class="text-[38px] font-light text-[#A18A4D] pl-6">We are a University of Excellence!
+                <div class=" w-[65%] p-20 relative"><img src="https://www.up.pt/portal/static/images/minerva_01.png"
+                        alt="">
+                    <h1 class="text-[48px] font-light text-[#A18A4D]  absolute top-10 left-0">We are a<br> University
+                        of<br> Excellence!
                     </h1>
                 </div>
                 <div class=" p-10 pt-20">
@@ -161,7 +170,9 @@
                         teaching and
                         excellent research with the best academic experience.</p>
                     <p class="text-[19px] pb-6">We are waiting for you</p>
-                    <button class="text-[#A18A4D] text-[19px] pb-6">See more</button>
+                    <button class="text-[#A18A4D] text-[19px] pb-6">See more <span
+                            class="bg-[#A18A4D] rounded-full px-2 py-1 text-white text-[8px]"><i
+                                class="fa-solid fa-chevron-right"></i></span></button>
                 </div>
 
             </div>
@@ -173,18 +184,18 @@
                 <div class="p-10">
                     <h1 class="text-[#A18A4D] text-[48px] font-light">Research</h1>
                     <h2 class="text-3xl font-semibold text-[#333333]">Research University</h2>
-                    <p class="py-6 font-light text-[22px]">With <span class="text-[#A18A4D]">48 research
+                    <p class="py-6 font-light text-[19px]">With <span class="text-[#A18A4D]">48 research
                             units</span> and a highly qualified scientific community, the University of Porto is
                         <span class=" font-semibold">one of the largest producers of science in Portugal</span>,
                         contributing to almost 25% of all national
                         scientific output.
                     </p>
-                    <p class="py-4 font-light text-[22px]">The excellence of our scientific ecosystem is particularly
+                    <p class="py-4 font-light text-[19px]">The excellence of our scientific ecosystem is particularly
                         evident in the leading position the
                         University occupies in the main international rankings of Higher Education.</p>
                 </div>
-                <div class="pt-32 pb-16">
-                    <img class="h-[100%]"
+                <div class="pt-[160px] pb-16">
+                    <img class="h-[90%]"
                         src="https://www.up.pt/portal/media/images/investigar-home_destaque.format-jpeg.jpg" alt="">
                 </div>
             </div>
@@ -194,7 +205,9 @@
             <div class="w-4/5 mx-auto relative py-10">
                 <div class="absolute top-[-40px] right-[500px]"><img
                         src="image/7c094b67-557b-4200-8e30-2682a1f3e76f.svg" alt=""></div>
-                <p class="text-white font-semibold text-[18px] absolute top-[-40px] right-0">Learn more</p>
+                <p class="text-white font-semibold text-[18px] absolute top-[-40px] right-0">Learn more <span
+                        class="bg-white rounded-full px-2 py-1 text-[#A18A4D] text-[8px]"><i
+                            class="fa-solid fa-chevron-right"></i></span></p>
                 <p class="text-white text-center text-[38px] pt-16 font-bold border-b-2 pb-4">U.PORT IN FIGURES<br><span
                         class="font-light">2023/2024</span></p>
                 <div class="grid grid-cols-3 mt-10">
@@ -230,7 +243,16 @@
                         <p class="text-[18px] font-light py-3 pr-4">Welcome! In this area you will find the answers you
                             need to start and make the most of your
                             experience at the University. We hope to help you... and welcome you soon!</p>
-                        <button class="text-[#A18A4D] ">see more</button>
+                        <button class="text-[#A18A4D] ">see more <span
+                                class="bg-[#A18A4D] rounded-full px-2 py-1 text-white text-[8px]"><i
+                                    class="fa-solid fa-chevron-right"></i></span> </button>
+                        <div class="flex gap-1 mt-10"><span class="bg-gray-400  px-4 py-2  text-white"><i
+                                    class="fa-solid fa-chevron-left"></i></span>
+
+                            <span class="bg-[#A18A4D]  px-4 py-2 text-white"><i
+                                    class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+
                     </div>
                     <div
                         class="bg-[url('https://www.up.pt/portal/media/images/gate-estudantes-internacionais.format-jpeg.jpg')] bg-no-repeat bg-cover bg-center w-[100%]">
@@ -276,7 +298,8 @@
                             <p class="text-[15px] text-white font-light py-5">Academia Up</p>
                         </div>
                         <div>
-                            <p class="text-[15px] text-white font-light py-5">Social Support Services of the University of
+                            <p class="text-[15px] text-white font-light py-5">Social Support Services of the University
+                                of
                                 Porto (SASUP)</p>
                             <p class="text-[15px] text-white font-light py-5">Educational Innovation</p>
                             <p class="text-[15px] text-white font-light py-5">Documentation and Information Services and
@@ -298,12 +321,12 @@
                     <div class="grid grid-cols-2">
                         <div class="py-3">
                             <ul class="text-white flex gap-4">
-                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa-regular fa-newspaper"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa-regular fa-newspaper"></i></a></li>
 
 
                             </ul>
